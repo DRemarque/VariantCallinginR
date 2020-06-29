@@ -6,5 +6,7 @@ Linkage and association studies have gained popularity with the rise of fast and
 ### Package Installation
 In R, use the following command to install the lastest version of VariantCallinginR from the repository:
 ```{}
+install.packages("devtools")
+library(devtools)
 install_github('VariantCallinginR','DRemarque')
 ```
