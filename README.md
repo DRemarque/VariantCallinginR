@@ -8,5 +8,5 @@ In R, use the following command to install the lastest version of VariantCalling
 ```{}
 install.packages("devtools")
 library(devtools)
-install_github('VariantCallinginR','DRemarque')
+install_github('DRemarque/VariantCallinginR',subdir='VariantCallinginR')
 ```
