@@ -16,7 +16,7 @@ devtools::install_github('DRemarque/VariantCallinginR',subdir='VariantCallinginR
 To access the GATK and BWA-MEM functions of the package, additional software is required.
 
 For Windows systems, this Unix based software requires a virtual Linux environment provided by Docker Toolbox:
-1. Download the Docker Toolbox installation software. For Windows, select the latest .exe file and for 
+1. Download the [Docker Toolbox installation software][ref-1]. For Windows, select the latest .exe file and for 
     Mac, select the latest .pkg file.
 2. Double click the downloaded file and follow the installation prompts
 3. To verify the installation, run the Docker Quickstart terminal once. This will setup the virtual 
@@ -26,9 +26,10 @@ For Windows systems, this Unix based software requires a virtual Linux environme
     For Mac, check that the terminal.exe is at its default location: /Applications/Utilities/Terminal.app.
 Note that Docker Toolbox is not available for Linux systems as these do not require a virtual Linux environment. 
 
-For Linux systems, the base software itself has to be installed. The latest installation software versions and instructions can be found here for GATK, BWA and Samtools and Picard (to support GATK).
+For Linux systems, the base software itself has to be installed. The latest installation software versions and instructions can be found [here][ref-2] for GATK, BWA and Samtools and Picard (to support GATK).
 
+### Citation Information
+_To follow soon_
 
-[text-1][ref-1]
-
-[ref-1]: http://example.org
+[ref-1]: https://github.com/docker/toolbox/releases
+[ref-2]: https://gatk.broadinstitute.org/hc/en-us/articles/360041320571--How-to-Install-all-software-packages-required-to-follow-the-GATK-Best-Practices
