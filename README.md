@@ -10,7 +10,7 @@ In R, use the following command to install the lastest version of VariantCalling
 install.packages("devtools")
 
 # Download VariantCallinginR
-devtools::install_github('DRemarque/VariantCallinginR',subdir='VariantCallinginR')
+devtools::install_github('DRemarque/VariantCallinginR',subdir='pkg_VariantCallinginR')
 ```
 ### Installation additional software  
 To access the GATK and BWA-MEM functions of the package, additional software is required.
