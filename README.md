@@ -5,10 +5,30 @@ Linkage and association studies have gained popularity with the rise of fast and
 
 ### Package Installation
 In R, use the following command to install the lastest version of VariantCallinginR from the repository:
-```{}
+```{r}
 # Install access to github
 install.packages("devtools")
 
 # Download VariantCallinginR
 devtools::install_github('DRemarque/VariantCallinginR',subdir='VariantCallinginR')
 ```
+### Installation additional software  
+To access the GATK and BWA-MEM functions of the package, additional software is required.
+
+For Windows systems, this Unix based software requires a virtual Linux environment provided by Docker Toolbox:
+1. Download the Docker Toolbox installation software. For Windows, select the latest .exe file and for 
+    Mac, select the latest .pkg file.
+2. Double click the downloaded file and follow the installation prompts
+3. To verify the installation, run the Docker Quickstart terminal once. This will setup the virtual 
+    environment.
+4. For Windows, check that the Docker Quickstart terminal installed Git Bash (bash.exe) at the default 
+    location: C:/Program Files/Git/bin/bash.exe
+    For Mac, check that the terminal.exe is at its default location: /Applications/Utilities/Terminal.app.
+Note that Docker Toolbox is not available for Linux systems as these do not require a virtual Linux environment. 
+
+For Linux systems, the base software itself has to be installed. The latest installation software versions and instructions can be found here for GATK, BWA and Samtools and Picard (to support GATK).
+
+
+[text-1][ref-1]
+
+[ref-1]: http://example.org
