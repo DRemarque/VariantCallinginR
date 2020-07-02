@@ -1,0 +1,27 @@
+Package: VariantCallinginR
+Title: R Variant Calling Pipeline from Fastq to VCF File
+Version: 0.0.0.9000
+Date: 2020-06-28
+Authors@R: person("D.Remarque", "Developer", role = c("aut", "cre"),
+                     email = "d.remarque@hotmail.com")
+Description: Linkage and association studies have gained popularity with the rise of fast and cheap whole genome sequencing. These studies rely on the use of genetic markers - short variable DNA sequences with a known location in the genome - to identify haplotypes and phenotypes related to specific variant alleles. The discovery and analysis of genetic markers within a genome, also known as variant calling, currently requires the use of multiple specialised software controlled via terminal commands. Therefore, the process of variant calling is laborious for research groups without access to a bio-informatician. The goal of this research project was to lower the threshold by creating an easy-to-use variant calling pipeline in R, with which most scientists already have ample experience. The final product is the R package VariantCallinginR, where each step of variant calling is compiled into an R function. Now, the entire variant discovery pipeline from raw data to variant call file can be executed in 10 lines of code or less, including regular quality controls. In order to test the functionality of the package, compound variant discovery has been performed for 19 previously sequenced, high interest Cannabis sativa strains aligned to the CBDRx reference strain. In total, over 11.5 million single nucleotide polymorphisms and 0.8 million microsatellites were discovered within the Cannabis genome.
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.0
+Encoding: UTF-8
+biocViews:
+Imports:
+    ChIPsim,
+	dada2,
+	ggplot2,
+	ggpubr,
+	GenomicRanges,
+	optparse,
+	Rbowtie2,
+	Rsamtools,
+	seqinr,
+	ShortRead,
+	systemPipeR,
+	VariantTools,
+	VariantAnnotation,
+	vcfR
