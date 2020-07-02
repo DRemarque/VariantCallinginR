@@ -26,6 +26,9 @@ Note that Docker Toolbox is not available for Linux systems as these do not requ
 
 For Linux systems, the base software itself has to be installed. The latest installation software versions and instructions can be found [here][ref-2] for GATK, BWA and Samtools and Picard (to support GATK).
 
+### Overview of variant discovery and corresponding R functions:
+![Image of Method](https://github.com/DRemarque/VariantCallinginR/blob/master/pkg_VariantCallinginR/Documentation/Pipeline_Method.png)
+
 ### Citation Information
 _To follow soon_
 
